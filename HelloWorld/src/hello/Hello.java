@@ -14,8 +14,8 @@ public class Hello {
 	 * @param args unused
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Hello, world!");
+		Message message = new Message("Hello, world!");
+		System.out.println(message.getMessage());
 	}
 
 }
